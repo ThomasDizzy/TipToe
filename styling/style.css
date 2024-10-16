@@ -28,20 +28,20 @@ img {
 }
 
 /*Content*/
-.leftwing{
-    background-image: url(../images/banner.jpeg);
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
     width: 100px;
-    height: 100%;
 }
-.tags a{
+.menu a{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    border: solid;
     text-decoration: none;
     color: rgb(17, 17, 17);
     font: arial;
-    border: 1px solid;
-    display: flex;
-    justify-content: center;
-}
-.tags{
-    display: flex;
-    flex-direction: column;
 }
