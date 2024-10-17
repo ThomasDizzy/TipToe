@@ -2,29 +2,27 @@
 /*Heading*/
 .header{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-between;
     background-color: rgba(238, 184, 5, 0.226);
-    align-items: flex-end;
     padding: 10px 20px;
 }
-img {
+img{
     max-width: 100%;
 }
 .logo{
     max-width: 100px;
 }
-.company_name{
-    font-size: 200%;
-}
-.login{
+.company_identity{
+    width: 100px;
     display: flex;
-    justify-content: space-around;
-    padding: 10x 20x;
+    flex-direction: column;
+    align-items: center;
 }
-.logandsearch a{
-    color:rgb(10, 10, 10);
-    font: arial;
+.name{
+    border: solid;
+    min-height: 50px;
+    font-size: 150%;
 }
 
 /*Content*/
