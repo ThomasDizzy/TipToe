@@ -4,42 +4,88 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     background-color: rgba(238, 184, 5, 0.226);
-    padding: 10px 20px;
+    padding: 100px 100x;
+    margin: 0px 300px;
+    max-height: 210px;
 }
 img{
     max-width: 100%;
 }
+/*Logo and Name*/
+.company_identity{
+    /* max-width: 500px; */
+    max-height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-left: 100px;
+}
 .logo{
     max-width: 100px;
-}
-.company_identity{
-    width: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 10px 10px;
 }
 .name{
-    border: solid;
-    min-height: 50px;
-    font-size: 150%;
+    max-width: 300px;
+    font-size: 30px;
+    margin-top: 5px;
 }
 
+.search_bar{
+    margin-top: 100px;
+}
+.search_bar input{
+    width: 400px;
+    height: 30px;
+}
+.search_bar button{
+    height: 30px;
+}
+
+.account{
+    display: flex;
+    justify-content: space-around;
+    width: 250px;
+    margin-top: 100px;
+    margin-right: 50px;
+    font: arial;
+}
+.account a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
 /*Content*/
+
 .menu{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    height: 100px;
-    width: 100px;
+    /* margin: 1px 550px; */
+    margin: 0px 300px;
+    padding: 1px 400px 1px 300px;
+    background-color:white;
 }
 .menu a{
     display: flex;
     justify-content: center;
     width: 100px;
-    border: solid;
+    border: thin;
     text-decoration: none;
+    background-color: white;
     color: rgb(17, 17, 17);
     font: arial;
+}
+
+.body_content{
+    margin: 0px 300px;
+    background-color: rgba(238, 184, 5, 0.226);
+}
+.footer{
+    padding: 100px 100x;
+    margin: 0px 300px;
+    max-height: 210px;
 }
