@@ -8,6 +8,9 @@
     background-color:rgba(28, 144, 57, 0.546);
 }
 
+.main{
+    border: solid;
+}
 .company_identity{
     border: solid;
     width: 30%;
@@ -101,6 +104,7 @@
 }
 
 .footer{
+    border: solid;
     background-color:rgba(28, 144, 57, 0.546);
     display: flex;
 }
