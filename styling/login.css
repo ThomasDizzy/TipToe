@@ -35,9 +35,9 @@
 .login-information{
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     margin: 0px 120px 0px 120px;
-    padding-top: 100px
+    padding-top: 100px;
 }
 .login-help{
     display: flex;
