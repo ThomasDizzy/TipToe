@@ -1,0 +1,72 @@
+.bag{
+    background-color: rgb(198, 155, 26);
+}
+.header{
+    background-color:rgba(28, 144, 57, 0.546);
+}
+
+.company_identity{
+    width: 100%;
+    padding: 5px 10px;
+}
+.company_identity a{
+    display: flex;
+    justify-content: center;
+}
+.img_logo{
+    width: 50%; 
+}
+
+.username{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.password{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.216);
+    /* border: solid; */
+}
+
+.login-information{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px 120px 0px 120px;
+    padding-top: 100px
+}
+.login-help{
+    display: flex;
+    justify-content: center;
+}
+.login-help a{
+    color: black;
+    padding: 5px;
+}
+
+
+.footer{
+    background-color:rgba(28, 144, 57, 0.546);
+}
+.other-options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+}
+.other-options a{
+    text-decoration: none;
+    font-size: 20px;
+    color: brown;
+}
+
+
+@media only screen and (min-width: 1000px){
+    .bag{
+        margin: 0px 300px;
+    }
+}
