@@ -1,5 +1,5 @@
 .bag{
-    background-color: rgb(198, 155, 26);
+    background-color: gray;
 }
 .header{
     display: flex;
@@ -11,9 +11,12 @@
 .company_identity{
     width: 30%;
     padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .img_logo{
-    width: 100%; 
+    width: 100%;
 }
 .name{
     width: 100%;
@@ -52,6 +55,11 @@
     color: black;
     font-size: 20px;
     padding-left: 7px;
+    display: flex;
+    align-items: flex-end;
+}
+.account img{
+    width: 30px;
 }
 
 
@@ -137,8 +145,17 @@
 }
 
 
-@media only screen and (min-width: 1000px){
+@media only screen and (min-width: 1200px){
     .bag{
         margin: 0px 300px;
+    }
+    .img_logo{
+        width: 30%;
+    }
+    .content img{
+        width: 50%;
+    }
+    .account img{
+        width: 50px;
     }
 }
