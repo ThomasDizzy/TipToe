@@ -11,6 +11,8 @@
 .company_identity{
     width: 30%;
     padding: 5px 10px;
+    flex-direction: column;
+    align-items: center;
 }
 .img_logo{
     width: 100%; 
@@ -136,6 +138,9 @@
 @media only screen and (min-width: 1000px){
     .bag{
         margin: 0px 300px;
+    }
+    .img_logo{
+        width: 30%;
     }
     .account img{
         width: 50px;
