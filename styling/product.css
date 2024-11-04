@@ -1,5 +1,12 @@
 .bag{
     background-color: gray;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+body{
+    height: 100%;
 }
 .header{
     display: flex;
@@ -11,11 +18,17 @@
 .company_identity{
     width: 30%;
     padding: 5px 10px;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
 .img_logo{
-    width: 100%; 
+    width: 100%;
+}
+.logo_link{
+    display: flex;
+    justify-content: center;
 }
 .name{
     width: 100%;
@@ -144,5 +157,8 @@
     }
     .account img{
         width: 50px;
+    }
+    .product{
+        padding: 40px;
     }
 }
