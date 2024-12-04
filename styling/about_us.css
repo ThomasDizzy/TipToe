@@ -1,0 +1,73 @@
+body {
+    background-color: gray;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    display: flex;
+    background-color: rgba(28, 144, 57, 0.546);
+    align-items: bottom;
+    border-bottom: solid 2px;
+}
+.navigation-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 20%;
+}
+.navigation-left a img{
+    display: block;
+    max-width: 50%;
+}
+.navigation-center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 50%;
+}
+.navigation-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    width: 30%;
+}
+.navigation-right img {
+    display: block;
+    max-width: 30%;
+}
+.navigation-right a {
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+
+
+main {
+    background-color: rgba(28, 144, 57, 0.546);
+}
+.content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.content-left {
+    margin: 50px;
+}
+.sunset_and_flower {
+    margin: 40px;
+    margin-left: 60px;
+}
+.left-content img{
+    width: 100%;
+}
+
+.title {
+    margin-top: 40px;
+}
+@media only screen and (min-width: 1200px){
+    body{
+        margin: 0px 300px;
+    }
+}
