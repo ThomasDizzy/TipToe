@@ -94,6 +94,9 @@
 .content img{
     width: 30%;
 }
+.contact_content {
+    margin: 20px;
+}
 
 .text_description{
     width: 70%;
