@@ -65,7 +65,60 @@ main {
 
 .title {
     margin-top: 40px;
+    margin-bottom: 10px;
 }
+
+
+
+.description {
+    margin: 0px;
+}
+.goals {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.goals b{
+    margin: 5px;
+}
+
+.footer{
+    border-top: solid;
+    background-color:rgba(28, 144, 57, 0.546);
+    display: flex;
+}
+.policy{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.policy a{
+    width: 100%;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    display: flex;
+    justify-content: flex-start;
+}
+.media{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+.media a{
+    width: 100%;
+    padding-top: 5px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    display: flex;
+    justify-content: flex-end;
+}
+
 @media only screen and (min-width: 1200px){
     body{
         margin: 0px 300px;
