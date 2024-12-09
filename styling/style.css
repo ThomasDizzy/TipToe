@@ -148,6 +148,18 @@
     justify-content: flex-end;
 }
 
+#information {
+    display: flex;
+    flex-direction: column;
+}
+#information input {
+    margin-bottom: 0.5em;
+    border: solid 2px;
+    font-weight: 600;
+}
+#information label {
+    font-weight: 600;
+}
 
 @media only screen and (min-width: 1200px){
     .bag{
